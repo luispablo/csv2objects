@@ -4,7 +4,7 @@
   "description": "Fast and easy tool to turn a CSV file to a JavaScript objects array",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node_modules/ava/cli.js --verbose"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/luispablo/csv2objects/issues"
   },
-  "homepage": "https://github.com/luispablo/csv2objects#readme"
+  "homepage": "https://github.com/luispablo/csv2objects#readme",
+  "devDependencies": {
+    "ava": "^3.15.0"
+  }
 }
